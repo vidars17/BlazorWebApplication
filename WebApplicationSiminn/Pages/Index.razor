@@ -39,6 +39,8 @@ else
                     <RadzenLineSeries Smooth="@smooth" Data="@Month" Title="@TickerTarget" CategoryProperty="Date" LineType="LineType.Dashed" ValueProperty="Price">
                         <RadzenMarkers MarkerType="MarkerType.Square" />
                     </RadzenLineSeries>
+                    <!--Didn't have time to figure out how to get the step to work so I appoligize for-->
+                    <!--the dates blurring together however they can be seen if you hover over the data points-->
                     <RadzenCategoryAxis Padding="40" Formatter="FormatAsMonth" Step="5" />
                     <RadzenValueAxis Formatter="FormatAsUSD">
                         <RadzenGridLines Visible="true" />
