@@ -10,7 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplicationSiminn.Data;
 
 namespace WebApplicationSiminn
 {
@@ -29,7 +28,6 @@ namespace WebApplicationSiminn
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddTransient<IDataAccessLayer, DataAccessLayer>();
         }
 
