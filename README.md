@@ -1,4 +1,4 @@
-# WebApplicationSiminn
+# BlazorWebApplication
 
 Blazor server that talks to a class library that handles API calls. Data is then grraphed in a line chart using Radzen.
 
